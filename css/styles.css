@@ -35,7 +35,7 @@ body {
     background-color: var(--additional-color);
 }
 
-.nav {
+.navigation {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -44,14 +44,14 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
-.web {
+.accent {
     color: var(--accent-color)
 }
 
@@ -142,7 +142,7 @@ body {
     color: var(--title-text-color);
 }
 
-/* Our team */
+/* Our team section*/
 
 .team {
     background-color: var(--additional-background-color);
@@ -152,7 +152,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    ;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
@@ -189,15 +188,23 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* Our works */
+/* Our works section*/
 
 .btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     background-color: var(--additional-background-color);
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--additional-color);
+    background-color: var(--accent-color);
 }
 
 .our-works-title {
