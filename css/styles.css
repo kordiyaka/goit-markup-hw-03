@@ -1,196 +1,206 @@
 :root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
 
-    --primary-color: #FFFFFF;
-    --primary-alfa-color: rgba(255, 255, 255, 0.6);
+  --primary-color: #ffffff;
+  --primary-alfa-color: rgba(255, 255, 255, 0.6);
 
-    --accent-background-color: #2F303A;
-    --additional-background-color: #F5F4FA;
+  --accent-background-color: #2f303a;
+  --additional-background-color: #f5f4fa;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: var(--primary-text-color);
-    background-color: var(--primary-color);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .link {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .current {
-    color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 
 /* Header */
 
 .navigation {
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .accent {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .list-item:hover,
 .list-item:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .contact {
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Hero section */
 
 .hero,
 .footer {
-    background-color: var(--accent-background-color);
+  background-color: var(--accent-background-color);
 }
 
 .hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--primary-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-color);
 }
 
 .hero-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    color: var(--primary-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 
 /* Our advantages section */
 
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .advantages-title {
-    font-weight: 700;
-    line-height: 1.2;
-    text-transform: uppercase;
-    color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--title-text-color);
 }
-
 
 /* What we do section */
 
 .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--title-text-color);
 }
 
 /* Our team section*/
 
 .team {
-    background-color: var(--additional-background-color);
+  background-color: var(--additional-background-color);
 }
 
 .team-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--title-text-color);
 }
 
 .team-text {
-    font-size: 16px;
-    line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 /* Footer */
 
 .footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    color: var(--primary-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--primary-color);
 }
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 
-
 .address-item-main {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .address-item {
-    color: var(--primary-alfa-color);
+  color: var(--primary-alfa-color);
 }
 
 /* Our works section*/
 
 .btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    color: var(--title-text-color);
-    background-color: var(--additional-background-color);    ;
-    cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--title-text-color);
+  background-color: var(--additional-background-color);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: transparent;
 }
 
 .btn:hover,
 .btn:focus {
-    color: var(--primary-color);
-    background-color: var(--accent-color);
+  color: var(--primary-color);
+  background-color: var(--accent-color);
 }
 
 .our-works-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
 }
 
 .our-works-text {
-    font-size: 16px;
-    line-height: 1.9;
+  font-size: 16px;
+  line-height: 1.9;
 }
