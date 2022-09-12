@@ -26,6 +26,8 @@ body {
 
 .list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .current {
@@ -85,7 +87,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 32px;
 }
+
 
 .hero-button {
   font-weight: 700;
@@ -97,9 +102,15 @@ body {
   cursor: pointer;
   border-radius: 4px;
   padding: 10px 32px;
+  border: transparent;
 }
 
 /* Our advantages section */
+
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -119,9 +130,19 @@ body {
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.advantages-text {
+  margin: 0;
 }
 
 /* What we do section */
+
+.what-we-do {
+  padding-bottom: 94px;
+}
 
 .title {
   font-weight: 700;
@@ -129,12 +150,15 @@ body {
   line-height: 1.2;
   text-align: center;
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 /* Our team section*/
 
 .team {
   background-color: var(--additional-background-color);
+  padding-top: 94px;
 }
 
 .team-title {
@@ -142,11 +166,14 @@ body {
   font-size: 16px;
   line-height: 1.2;
   color: var(--title-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.2;
+  margin: 0;
 }
 
 /* Footer */
