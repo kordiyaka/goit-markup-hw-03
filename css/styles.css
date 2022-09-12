@@ -87,6 +87,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--primary-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 /* Our advantages section */
