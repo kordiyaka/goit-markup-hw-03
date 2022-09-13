@@ -41,9 +41,32 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.centered {
+  text-align: center;
+}
+
 /* Header */
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid;
+  border-color: #ececec;
+}
+
+.navigation-contact {
+display: flex;
+align-items: center;
+}
+
 .navigation {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -61,16 +84,36 @@ body {
   color: var(--accent-color);
 }
 
+.navigation-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.header .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .list-item:hover,
 .list-item:focus {
   color: var(--accent-color);
 }
 
+
+.header .list-item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .contact {
+  display: flex;
+  margin-left: auto;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
+
 
 /* Hero section */
 
@@ -83,14 +126,12 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-color);
   margin-top: 0;
   margin-bottom: 32px;
 }
-
 
 .hero-button {
   font-weight: 700;
@@ -106,11 +147,6 @@ body {
 }
 
 /* Our advantages section */
-
-.advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .visually-hidden {
   position: absolute;
@@ -148,7 +184,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
   color: var(--title-text-color);
   margin-top: 0;
   margin-bottom: 50px;
@@ -158,7 +193,6 @@ body {
 
 .team {
   background-color: var(--additional-background-color);
-  padding-top: 94px;
 }
 
 .team-title {
@@ -178,12 +212,19 @@ body {
 
 /* Footer */
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--primary-color);
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .address {
@@ -192,10 +233,14 @@ body {
 
 .address-item-main {
   color: var(--primary-color);
+  display: inline-block;
+  margin-bottom: 9px;
 }
 
 .address-item {
   color: var(--primary-alfa-color);
+  display: inline-block;
+  margin-bottom: 9px;
 }
 
 /* Our works section*/
@@ -219,15 +264,23 @@ body {
   background-color: var(--accent-color);
 }
 
+.img {
+  display: block;
+}
+
 .our-works-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .our-works-text {
   font-size: 16px;
   line-height: 1.9;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
