@@ -50,6 +50,10 @@ body {
   text-align: center;
 }
 
+.item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Header */
 
 .header {
@@ -134,6 +138,9 @@ align-items: center;
 }
 
 .hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -160,6 +167,11 @@ align-items: center;
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.advantages-list {
+  display: flex;
+}
+
 
 .advantages-title {
   font-weight: 700;
@@ -189,11 +201,21 @@ align-items: center;
   margin-bottom: 50px;
 }
 
+.what-we-do-list {
+  display: flex;
+}
+
+
 /* Our team section*/
 
 .team {
   background-color: var(--additional-background-color);
 }
+
+.team-list {
+  display: flex;
+}
+
 
 .team-title {
   font-weight: 500;
